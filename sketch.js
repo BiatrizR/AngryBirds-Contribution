@@ -78,8 +78,8 @@ function draw(){
     log4.display();
     log5.display();
 
-    bird.display();
     platform.display();
+    bird.display();
     //Alterar a posição do estilingue no código para o passáro ficar na frente
         
  }
@@ -99,7 +99,7 @@ function mouseReleased(){
 
 function keyPressed(){
     if(keyCode === 32){
-       // slingshot.attach(bird.body);
+        slingshot.attach(bird.body);
     }
 }
 
