@@ -80,7 +80,7 @@ function draw(){
 
     platform.display();
     bird.display();
-    //Alterar a posição do estilingue no código para o passáro ficar na frente
+    slingshot.display();
         
  }
 
