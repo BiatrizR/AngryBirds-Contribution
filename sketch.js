@@ -48,11 +48,11 @@ function setup(){
     box5 = new Box(810,160,70,70);
 
     //encontrar o valor em radianos para os troncos de cima se aboiarem um no outro
-    log4 = new Log(760,120,150, PI/4);
-    log5 = new Log(870,120,150, -PI/2);
+    log4 = new Log(760,120,150, PI/7);
+    log5 = new Log(870,120,150, -PI/7);
 
-    bird = new Bird(200,50);
     slingshot = new SlingShot(bird.body,{x:185, y:50});
+    bird = new Bird(200,50);
 }
 
 function draw(){
